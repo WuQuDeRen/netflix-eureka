@@ -1,13 +1,11 @@
-package com.fj.boot_app.configuration;
-
-import javax.annotation.PostConstruct;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
+package com.cloud.netflix.eureka.config.configuration;
 
 import lombok.Data;
 
+import javax.annotation.PostConstruct;
+
 //@Configuration
-@ConfigurationProperties(prefix = "wxpay")// 与配置文件中开头相同
+//@ConfigurationProperties(prefix = "wxpay")// 与配置文件中开头相同
 //PropertySource默认取application.properties
 //@PropertySource(value = "wxpay.properties")
 @Data

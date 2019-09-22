@@ -1,4 +1,4 @@
-package com.fj.boot_app;
+package com.cloud.netflix.eureka.config;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,19 +1,16 @@
-package com.fj.boot_app;
+package com.cloud.netflix.eureka.config;
 
-import com.fj.boot_app.configuration.MyConfig;
+import com.cloud.netflix.eureka.config.configuration.MyConfig;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.web.client.RestTemplate;
 
 
 /**
@@ -25,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 // 指定Bean扫描路径
-@ComponentScan(basePackages = {"com.fj.boot.app", "com.fj.boot_app.configuration"})
+@ComponentScan(basePackages = {"com.cloud.netflix.eureka.app", "com.cloud.netflix.eureka.config.configuration"})
 //指定Mapper扫描路径
 @MapperScan(basePackages = {"com.fj.boot.app.**.dao"})
 // 属性配置类
