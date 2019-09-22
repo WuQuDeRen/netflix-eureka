@@ -3,11 +3,19 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../netflix_zuul" />
+    <file type="web" url="file://$PROJECT_DIR$/../../service/cloud_order" />
+    <file type="web" url="file://$PROJECT_DIR$/../../service/cloud_repository" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../netflix_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../../service/order/pom.xml" />
+        <option value="$PROJECT_DIR$/../../service/repository/pom.xml" />
+        <option value="$PROJECT_DIR$/../../service/cloud_order/pom.xml" />
+        <option value="$PROJECT_DIR$/../../service/cloud_repository/pom.xml" />
       </list>
     </option>
   </component>
